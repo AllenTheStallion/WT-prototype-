@@ -7,8 +7,34 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Welcome to WeThrive!</h1>
-  <p>Your health companion prototype is live!</p>
+  <header>
+    <h1>WeThrive Health Tracker</h1>
+    <p>Track your habits, achieve your goals!</p>
+  </header>
+
+  <section id="tracker">
+    <h2>Track Your Daily Goals</h2>
+    <div class="goal-container">
+      <div class="goal">
+        <h3>Water Intake</h3>
+        <button id="waterBtn">Add Water</button>
+        <p id="waterGoal">Goal: 8 cups</p>
+        <p id="waterProgress">Progress: 0 cups</p>
+      </div>
+      <div class="goal">
+        <h3>Exercise</h3>
+        <button id="exerciseBtn">Add Exercise</button>
+        <p id="exerciseGoal">Goal: 30 minutes</p>
+        <p id="exerciseProgress">Progress: 0 minutes</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="streaks">
+    <h2>Your Progress</h2>
+    <p id="streakMessage">You’re on a streak!</p>
+  </section>
+
   <script src="script.js"></script>
 </body>
 </html>
